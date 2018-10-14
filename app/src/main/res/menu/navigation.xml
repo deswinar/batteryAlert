@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_alert"
+        android:icon="@drawable/ic_add_alert_black_24dp"
+        android:title="@string/title_alert" />
+
+    <item
+        android:id="@+id/navigation_status"
+        android:icon="@drawable/ic_battery_unknown_black_24dp"
+        android:title="@string/title_status" />
+
+    <item
+        android:id="@+id/navigation_option"
+        android:icon="@drawable/ic_build_black_24dp"
+        android:title="@string/title_option" />
+
+</menu>

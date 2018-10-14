@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">firebaseTraining</string>
+
+    <string name="title_alert">Alert</string>
+    <string name="title_status">Status</string>
+    <string name="title_option">Option</string>
+
+    <string name="title_add">Add</string>
+    <string name="title_connect">Connect</string>
+    <string name="title_edit">Edit</string>
+
+    <string name="title_add_alert">Add Alert</string>
+    <string name="title_save">Save</string>
+    <string name="title_cancel">Cancel</string>
+
+    <string name="title_battery_alert">Battery Alert</string>
+    <string name="title_time_alert">Time Alert</string>
+    <string name="title_temperature_alert">Temperature Alert</string>
+
+    <string name="title_battery_status">Battery Status</string>
+    <string name="title_battery_health">Battery Health</string>
+    <string name="title_temperature_status">Temperature Status</string>
+</resources>

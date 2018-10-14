@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rl_battery_alert"
+        android:clickable="true">
+
+        <TextView
+            android:id="@+id/tv_name_battery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:paddingTop="10dp"
+            android:text="@string/title_battery_alert"
+            android:textAlignment="textStart"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_desc_battery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_name_battery"
+            android:text="Alert Desc"
+            android:textAlignment="textStart"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            style="?android:attr/listSeparatorTextViewStyle"/>
+
+        <Switch
+            android:id="@+id/sw_battery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:focusable="false" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rl_time_alert"
+        android:clickable="true">
+
+        <TextView
+            android:id="@+id/tv_name_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:paddingTop="10dp"
+            android:text="@string/title_time_alert"
+            android:textAlignment="textStart"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_desc_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_name_time"
+            android:text="Time Alert Desc"
+            android:textAlignment="textStart"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            style="?android:attr/listSeparatorTextViewStyle"/>
+
+        <Switch
+            android:id="@+id/sw_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:focusable="false" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rl_temperature_alert"
+        android:clickable="true">
+
+        <TextView
+            android:id="@+id/tv_name_temperature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:paddingTop="10dp"
+            android:text="@string/title_temperature_alert"
+            android:textAlignment="textStart"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_desc_temperature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_name_temperature"
+            android:text="Temperature Alert Desc"
+            android:textAlignment="textStart"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            style="?android:attr/listSeparatorTextViewStyle"/>
+
+        <Switch
+            android:id="@+id/sw_temperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:focusable="false" />
+
+    </RelativeLayout>
+
+</LinearLayout>
